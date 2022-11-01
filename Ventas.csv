@@ -1,0 +1,11 @@
+idVentas,Producto_idProducto,Producto_nombreProducto,Producto_precioProducto,Empleados_idEmpleados,Sucursal_idSucursal
+1,1,arroz,80,1,1
+2,1,arroz,80,1,1
+3,2,fideo,80.5,1,1
+4,3,silla,300,2,2
+5,4,televisor,1500,2,2
+6,6,videojuego,300,3,3
+7,6,videojuego,30,1,1
+8,5,remera,500,4,4
+9,8,cuaderno,40,4,4
+10,11,shampoo,60,4,4

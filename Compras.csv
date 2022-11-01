@@ -1,0 +1,14 @@
+idCompras,Producto_idProducto,Producto_nombreProducto,Proveedores_idProveedores,Proveedores_precioProducto
+1,1,arroz,1,80
+2,1,arroz,1,80
+3,3,silla,2,300
+4,3,silla,2,300
+5,5,remera,2,500
+6,6,videojuego,3,300
+7,6,videojuego,3,300
+8,8,cuaderno,4,50
+9,8,cuaderno,4,50
+10,4,televisor,3,1500
+11,3,silla,2,300
+12,3,silla,2,300
+13,1,arroz,1,80
