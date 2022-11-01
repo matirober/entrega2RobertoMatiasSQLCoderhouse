@@ -14,15 +14,13 @@ INDICE
 
 5) Paso a paso de inserción de datos
 
-6) Exportacion de scripts de inserción de datos
+6) Creación de vistas
 
-7) Creación de vistas
+7) Creación de Funciones
 
-8) Creación de Funciones
+8)  Creación de Stored Procedure
 
-9)  Creación de Stored Procedure
-
-10)  Creación de Triggers
+9)  Creación de Triggers
 
 
 
@@ -48,9 +46,24 @@ proveedores: se guardan los datos de cada proveedor.
 empleados: se guardan los datos de cada empleado.
 insercion_de_productos: una tabla para insercion de datos.
 
+
 4) La creacion de la base de datos la hice a traves del diagrama con workbench y luego la fui modificando manualmente para que vaya funcionando, de todas maneras dejo arriba el script.
 
-5) 
+
+5)  Lo que hice para poder subir los datos a la base fue lo siguiente:
+
+a) realice una copia exacta de la tabla en excel de google
+b) realice el llenado de los datos en la tabla
+c) descargue la tabla con un formato .csv
+d) Ingrese a Workbench a mi tabla ´mydb´
+e) elegi mi tabla(similar a la que copie en excel)
+f) le di al boton importar datos dentro la respectiva tabla(ejemplo: producto)
+g) luego exporte los datos con el boton de al lado
+h) guarde la exportacion como archivo sql INSERT statement
+i) abri el archivo sql con block de notas
+j) reemplazo las comillas dobles por el campo que quiero insertar(ejemplo: producto) 
+abro workbench y debajo de :use mydb; pego los datos a insertar.
+
 
 
 
